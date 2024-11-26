@@ -21,7 +21,7 @@ cluster_groups = [
 st.sidebar.image(os.path.join(image_dir, "logoanu.png"), use_container_width=True)
 st.title("Internal Dynamics of Multiple Populations in 28 Galactic Globular Clusters: A Wide-Field study with Gaia and the Hubble Space Telescope")
 
-st.subheader("G. Cordoni et al. ")
+# st.subheader("G. Cordoni et al. ")
 container1 = st.container()
 col1, col2, col3, col4 = st.columns(4) 
 
@@ -31,6 +31,11 @@ with container1:
     with col2:
         st.link_button(":blue[Go to website] 🌏", "https://giacomocordoni.github.io/", type="secondary", use_container_width=True)
 
+st.markdown("""
+**G. Cordoni**¹,²  *L. Casagrande*¹,²  *A. P. Milone*³,⁴  *E. Dondoglio*³  *A. Mastrobuono-Battisti*⁴,⁵  *S. Jang*⁶  *A. F. Marino*⁴,⁷  *E. P. Lagioia*⁸  *M. V. Legnardi*³  *T. Ziliotto*³  *M. Tailo*³  *E. Lacchin*³,⁹,¹⁰  *F. Muratore*³  *V. Mehta*¹  
+
+1. Research School of Astronomy and Astrophysics, The Australian National University, Canberra, ACT 2611, Australia   2. ARC Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D), Australia   3. Dipartimento di Fisica e Astronomia "Galileo Galilei" - Univ. di Padova, Vicolo dell'Osservatorio 3, Padova, IT-35122   4. Istituto Nazionale di Astrofisica - Osservatorio Astronomico di Padova, Vicolo dell'Osservatorio 5, Padova, IT-35122   5. GEPI, Observatoire de Paris, PSL Research University, CNRS, Place Jules Janssen, 92195 Meudon, France   6. Center for Galaxy Evolution Research and Department of Astronomy, Yonsei University, Seoul 03722, Korea   7. Istituto Nazionale di Astrofisica - Osservatorio Astrofisico di Arcetri, Largo Enrico Fermi, 5, Firenze, IT-50125   8. South-Western Institute for Astronomy Research, Yunnan University, Kunming, 650500, P.R. China   9. Dipartimento di Fisica e Astronomia Augusto Righi, Univ. degli Studi di Bologna, Via Gobetti 93/2, 40129 Bologna, Italy   10. Osservatorio di Astrofisica e Scienza dello Spazio di Bologna, Via Gobetti 93/3, 40129 Bologna, Italy   11. Institut für Theoretische Astrophysik, ZAH, Universität Heidelberg, Albert-Ueberle-Straße 2, D-69120, Heidelberg, Germany   12. INFN - Padova, Via Marzolo 8, I–35131 Padova, Italy  
+            """)
 
 st.sidebar.title("Pages")
 page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups profiles", 
@@ -42,11 +47,6 @@ page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups pro
 if page == "Home":
     # st.title("Cluster Analysis Dashboard")
     st.markdown("""
-## Authors
-**G. Cordoni**¹,²  **L. Casagrande**¹,²  **A. P. Milone**³,⁴  **E. Dondoglio**³  **A. Mastrobuono-Battisti**⁴,⁵  **S. Jang**⁶  **A. F. Marino**⁴,⁷  **E. P. Lagioia**⁸  **M. V. Legnardi**³  **T. Ziliotto**³  **M. Tailo**³  **E. Lacchin**³,⁹,¹⁰  **F. Muratore**³  **V. Mehta**¹  
-
-1. Research School of Astronomy and Astrophysics, The Australian National University, Canberra, ACT 2611, Australia   2. ARC Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D), Australia   3. Dipartimento di Fisica e Astronomia "Galileo Galilei" - Univ. di Padova, Vicolo dell'Osservatorio 3, Padova, IT-35122   4. Istituto Nazionale di Astrofisica - Osservatorio Astronomico di Padova, Vicolo dell'Osservatorio 5, Padova, IT-35122   5. GEPI, Observatoire de Paris, PSL Research University, CNRS, Place Jules Janssen, 92195 Meudon, France   6. Center for Galaxy Evolution Research and Department of Astronomy, Yonsei University, Seoul 03722, Korea   7. Istituto Nazionale di Astrofisica - Osservatorio Astrofisico di Arcetri, Largo Enrico Fermi, 5, Firenze, IT-50125   8. South-Western Institute for Astronomy Research, Yunnan University, Kunming, 650500, P.R. China   9. Dipartimento di Fisica e Astronomia Augusto Righi, Univ. degli Studi di Bologna, Via Gobetti 93/2, 40129 Bologna, Italy   10. Osservatorio di Astrofisica e Scienza dello Spazio di Bologna, Via Gobetti 93/3, 40129 Bologna, Italy   11. Institut für Theoretische Astrophysik, ZAH, Universität Heidelberg, Albert-Ueberle-Straße 2, D-69120, Heidelberg, Germany   12. INFN - Padova, Via Marzolo 8, I–35131 Padova, Italy  
-
 ## Abstract
 
 We present a detailed analysis of the internal dynamics of multiple stellar populations (MPs) in 28 Galactic Globular Clusters (GCs) using astro-photometric catalogs from ground-based observations, Gaia, and the Hubble Space Telescope (HST). Exploiting Chromosome Maps (ChMs) and the ( $C_\mathrm{UBI}$) photometric index, we identified first-population (1P) and second-population (2P) stars among RGB stars and studied their internal dynamics with Gaia DR3 and HST proper motions. Our results show that while 1P stars display isotropic motion across the entire cluster field, 2P stars become increasingly radially anisotropic in the outer regions. We analyzed the dynamical profiles of clusters with different dynamical and structural properties. In dynamically young and non-relaxed clusters, we observe significant dynamical differences, particularly beyond the tidal radius. In these regions, 1P stars shift from isotropic to slightly tangentially anisotropic motion, while 2P stars become increasingly radially anisotropic. We also find that clusters with orbits closer to the Galactic center display greater dynamical differences between 1P and 2P stars compared to those with larger peri-Galactic radii. These findings suggest that 2P stars likely formed in a more centrally concentrated environment, with the interactions between the Galaxy and MPs playing a crucial role in shaping these dynamics.
