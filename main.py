@@ -17,7 +17,7 @@ cluster_groups = [
 ]
 
 # Define the sidebar navigation
-st.sidebar.title("Navigation")
+st.sidebar.title("Pages")
 page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups profiles", 
                                   "Alternative global profiles", "Individual clusters profiles", "Statistical tests"])
 
