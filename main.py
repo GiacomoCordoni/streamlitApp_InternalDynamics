@@ -17,6 +17,21 @@ cluster_groups = [
 ]
 
 # Define the sidebar navigation
+
+st.sidebar.image(os.path.join(image_dir, "logoanu.png"), use_container_width=True)
+st.title("Internal Dynamics of Multiple Populations in 28 Galactic Globular Clusters: A Wide-Field study with Gaia and the Hubble Space Telescope")
+
+st.subheader("G. Cordoni et al. ")
+container1 = st.container()
+col1, col2, col3, col4 = st.columns(4) 
+
+with container1: 
+    with col1:
+        st.link_button(":blue[Go to article] 📄 ", "https://ui.adsabs.harvard.edu/abs/2024arXiv240902330C/abstract", type="secondary", use_container_width=True)
+    with col2:
+        st.link_button(":blue[Go to website] 🌏", "https://giacomocordoni.github.io/", type="secondary", use_container_width=True)
+
+
 st.sidebar.title("Pages")
 page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups profiles", 
                                   "Alternative global profiles", "Individual clusters profiles", "Statistical tests"])
@@ -27,8 +42,6 @@ page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups pro
 if page == "Home":
     # st.title("Cluster Analysis Dashboard")
     st.markdown("""
-# The Internal Dynamics of Multiple Populations in 28 Galactic Globular Clusters
-
 ## Authors
 **G. Cordoni**¹,²  **L. Casagrande**¹,²  **A. P. Milone**³,⁴  **E. Dondoglio**³  **A. Mastrobuono-Battisti**⁴,⁵  **S. Jang**⁶  **A. F. Marino**⁴,⁷  **E. P. Lagioia**⁸  **M. V. Legnardi**³  **T. Ziliotto**³  **M. Tailo**³  **E. Lacchin**³,⁹,¹⁰  **F. Muratore**³  **V. Mehta**¹  
 
