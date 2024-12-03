@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Streamlit Internal Dynamics** is an interactive application designed to analyze and visualize the internal dynamics of multiple stellar populations within 28 Galactic Globular Clusters (GCs). Leveraging high-quality astro-photometric data from ground-based observations, Gaia DR3, and the Hubble Space Telescope (HST), this app provides insights into the kinematic behaviors of first-population (1P) and second-population (2P) stars across various regions of each cluster.
+**Streamlit Internal Dynamics** is an interactive application designed to visualize the internal dynamics of multiple stellar populations within 28 Galactic Globular Clusters (GCs). Combining high-quality astro-photometric data from ground-based observations, Gaia DR3, and the Hubble Space Telescope (HST), this app provides a wide-field view of the kinematic of first-population (1P) and second-population (2P) stars .
 
 ## Dataset
 The work combines ground and space-based data to provide a robust analysis of the internal dynamics of multiple stellar populations in Galactic Globular clusters:
