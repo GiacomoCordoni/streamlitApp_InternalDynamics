@@ -163,13 +163,6 @@ This work provides a comprehensive picture of the dynamical differences between 
 
 Overall, the analysis advances the understanding of multiple populations in globular clusters by providing robust evidence of dynamical distinctions between 1P and 2P stars across a diverse sample of clusters. These insights contribute to refining formation and evolutionary models of globular clusters, offering valuable constraints for future \( N \)-body simulations and theoretical studies.
 
-## Acknowledgements
-
-SJ acknowledges support from the NRF of Korea (2022R1A2C3002992, 2022R1A6A1A03053472). EPL acknowledges support from the "Science
-& Technology Champion Project'" (202005AB160002)
-and from the "Top Team Project" (202305AT350002),
-all funded by the "Yunnan Revitalization Talent Support Program". TZ acknowledges funding from the European Union’s Horizon 2020 research and innovation program under the Marie Skl odowska-Curie
-Grant Agreement No. 101034319 and from the European Union – Next Generation EU. AMB acknowledges funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 895174. This work has received funding from  "PRIN 2022 2022MMEB9W - *Understanding the formation of globular clusters with their multiple stellar generations*" (PI A. F. Marino),  and from INAF Research GTO-Grant Normal RSN2-1.05.12.05.10 -  (ref. A. F. Marino) of the "Bando INAF per il Finanziamento della Ricerca Fondamentale 2022". EL acknowledges financial support from the European Research Council for the ERC Consolidator grant DEMOBLACK, under contract no. 770017.
     """)
 
 # ===========================
