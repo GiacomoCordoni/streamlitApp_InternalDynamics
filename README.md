@@ -22,3 +22,22 @@ The application utilizes a combination of datasets to provide a robust analysis 
 
 All necessary figures and data files required for plotting are organized within the `Data/` directory.
 
+## How to cite
+```bibtex
+@ARTICLE{2024arXiv240902330C,
+       author = {{Cordoni}, Giacomo and {Casagrande}, Luca and {Milone}, Antonino and {Dondoglio}, Emanuele and {Mastrobuono-Battisti}, Alessandra and {Jang}, Sohee and {Marino}, Anna and {Lagioia}, Edoardo and {Vittoria Legnardi}, Maria and {Ziliotto}, Tuila and {Muratore}, Fabrizio and {Mehta}, Vernica and {Lacchin}, Elena and {Tailo}, Marco},
+        title = "{Internal Dynamics of Multiple Populations in 28 Galactic Globular Clusters: A Wide-Field study with Gaia and the Hubble Space Telescope}",
+      journal = {arXiv e-prints},
+     keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Solar and Stellar Astrophysics},
+         year = 2024,
+        month = sep,
+          eid = {arXiv:2409.02330},
+        pages = {arXiv:2409.02330},
+          doi = {10.48550/arXiv.2409.02330},
+archivePrefix = {arXiv},
+       eprint = {2409.02330},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240902330C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
