@@ -162,7 +162,6 @@ This work provides a comprehensive picture of the dynamical differences between 
 - **Formation Environments**: The distinct dynamical profiles of 2P stars support the notion that they formed in more centrally concentrated environments, aligning with predictions from \( N \)-body simulations.
 
 Overall, the analysis advances the understanding of multiple populations in globular clusters by providing robust evidence of dynamical distinctions between 1P and 2P stars across a diverse sample of clusters. These insights contribute to refining formation and evolutionary models of globular clusters, offering valuable constraints for future \( N \)-body simulations and theoretical studies.
-
     """)
 
 # ===========================
