@@ -33,9 +33,9 @@ with container1:
 
 st.markdown("""
 **G. Cordoni**¹,²  *L. Casagrande*¹,²  *A. P. Milone*³,⁴  *E. Dondoglio*³  *A. Mastrobuono-Battisti*⁴,⁵  *S. Jang*⁶  *A. F. Marino*⁴,⁷  *E. P. Lagioia*⁸  *M. V. Legnardi*³  *T. Ziliotto*³  *M. Tailo*³  *E. Lacchin*³,⁹,¹⁰  *F. Muratore*³  *V. Mehta*¹  
-
-1. Research School of Astronomy and Astrophysics, The Australian National University, Canberra, ACT 2611, Australia   2. ARC Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D), Australia   3. Dipartimento di Fisica e Astronomia "Galileo Galilei" - Univ. di Padova, Vicolo dell'Osservatorio 3, Padova, IT-35122   4. Istituto Nazionale di Astrofisica - Osservatorio Astronomico di Padova, Vicolo dell'Osservatorio 5, Padova, IT-35122   5. GEPI, Observatoire de Paris, PSL Research University, CNRS, Place Jules Janssen, 92195 Meudon, France   6. Center for Galaxy Evolution Research and Department of Astronomy, Yonsei University, Seoul 03722, Korea   7. Istituto Nazionale di Astrofisica - Osservatorio Astrofisico di Arcetri, Largo Enrico Fermi, 5, Firenze, IT-50125   8. South-Western Institute for Astronomy Research, Yunnan University, Kunming, 650500, P.R. China   9. Dipartimento di Fisica e Astronomia Augusto Righi, Univ. degli Studi di Bologna, Via Gobetti 93/2, 40129 Bologna, Italy   10. Osservatorio di Astrofisica e Scienza dello Spazio di Bologna, Via Gobetti 93/3, 40129 Bologna, Italy   11. Institut für Theoretische Astrophysik, ZAH, Universität Heidelberg, Albert-Ueberle-Straße 2, D-69120, Heidelberg, Germany   12. INFN - Padova, Via Marzolo 8, I–35131 Padova, Italy  
             """)
+
+# 1. Research School of Astronomy and Astrophysics, The Australian National University, Canberra, ACT 2611, Australia   2. ARC Centre of Excellence for All Sky Astrophysics in 3 Dimensions (ASTRO 3D), Australia   3. Dipartimento di Fisica e Astronomia "Galileo Galilei" - Univ. di Padova, Vicolo dell'Osservatorio 3, Padova, IT-35122   4. Istituto Nazionale di Astrofisica - Osservatorio Astronomico di Padova, Vicolo dell'Osservatorio 5, Padova, IT-35122   5. GEPI, Observatoire de Paris, PSL Research University, CNRS, Place Jules Janssen, 92195 Meudon, France   6. Center for Galaxy Evolution Research and Department of Astronomy, Yonsei University, Seoul 03722, Korea   7. Istituto Nazionale di Astrofisica - Osservatorio Astrofisico di Arcetri, Largo Enrico Fermi, 5, Firenze, IT-50125   8. South-Western Institute for Astronomy Research, Yunnan University, Kunming, 650500, P.R. China   9. Dipartimento di Fisica e Astronomia Augusto Righi, Univ. degli Studi di Bologna, Via Gobetti 93/2, 40129 Bologna, Italy   10. Osservatorio di Astrofisica e Scienza dello Spazio di Bologna, Via Gobetti 93/3, 40129 Bologna, Italy   11. Institut für Theoretische Astrophysik, ZAH, Universität Heidelberg, Albert-Ueberle-Straße 2, D-69120, Heidelberg, Germany   12. INFN - Padova, Via Marzolo 8, I–35131 Padova, Italy  
 
 st.sidebar.title("Pages")
 page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups profiles", 
@@ -46,10 +46,11 @@ page = st.sidebar.radio("Go to", ["Home", "Global profiles", "Cluster groups pro
 # ===========================
 if page == "Home":
     # st.title("Cluster Analysis Dashboard")
-    st.markdown("""
-## Abstract
+    st.markdown("""                
+    ## Abstract
 
-We present a detailed analysis of the internal dynamics of multiple stellar populations (MPs) in 28 Galactic Globular Clusters (GCs) using astro-photometric catalogs from ground-based observations, Gaia, and the Hubble Space Telescope (HST). Exploiting Chromosome Maps (ChMs) and the ( $C_\mathrm{UBI}$) photometric index, we identified first-population (1P) and second-population (2P) stars among RGB stars and studied their internal dynamics with Gaia DR3 and HST proper motions. Our results show that while 1P stars display isotropic motion across the entire cluster field, 2P stars become increasingly radially anisotropic in the outer regions. We analyzed the dynamical profiles of clusters with different dynamical and structural properties. In dynamically young and non-relaxed clusters, we observe significant dynamical differences, particularly beyond the tidal radius. In these regions, 1P stars shift from isotropic to slightly tangentially anisotropic motion, while 2P stars become increasingly radially anisotropic. We also find that clusters with orbits closer to the Galactic center display greater dynamical differences between 1P and 2P stars compared to those with larger peri-Galactic radii. These findings suggest that 2P stars likely formed in a more centrally concentrated environment, with the interactions between the Galaxy and MPs playing a crucial role in shaping these dynamics.
+
+**Important: the dashboard is still being updated** We present a detailed analysis of the internal dynamics of multiple stellar populations (MPs) in 28 Galactic Globular Clusters (GCs) using astro-photometric catalogs from ground-based observations, Gaia, and the Hubble Space Telescope (HST). Exploiting Chromosome Maps (ChMs) and the ( $C_\mathrm{UBI}$) photometric index, we identified first-population (1P) and second-population (2P) stars among RGB stars and studied their internal dynamics with Gaia DR3 and HST proper motions. Our results show that while 1P stars display isotropic motion across the entire cluster field, 2P stars become increasingly radially anisotropic in the outer regions. We analyzed the dynamical profiles of clusters with different dynamical and structural properties. In dynamically young and non-relaxed clusters, we observe significant dynamical differences, particularly beyond the tidal radius. In these regions, 1P stars shift from isotropic to slightly tangentially anisotropic motion, while 2P stars become increasingly radially anisotropic. We also find that clusters with orbits closer to the Galactic center display greater dynamical differences between 1P and 2P stars compared to those with larger peri-Galactic radii. These findings suggest that 2P stars likely formed in a more centrally concentrated environment, with the interactions between the Galaxy and MPs playing a crucial role in shaping these dynamics.
 
 ## Introduction
 
@@ -96,7 +97,7 @@ We utilized proper motion data from Gaia DR3 and HST to study the internal dynam
    - Calculated the mean and dispersion of radial and tangential velocities for both 1P and 2P stars.
    - Derived anisotropy profiles (\( \beta = \frac{\sigma_T^2}{\sigma_R^2} - 1 \)) to quantify the difference between radial and tangential dispersions.
 
-3. **Global Profile Construction**:
+3. **Global Profiles**:
    - Combined data from all 28 GCs to create global dynamical profiles.
    - Normalized radial distances to the half-light radius (\( R_h \)) and velocity dispersions to the central dispersion values to ensure consistency across clusters.
    - Applied the LOESS algorithm to derive smoothed global profiles and assess the overall trends in the dynamics of 1P and 2P stars.
@@ -174,7 +175,7 @@ elif page == "Global profiles":
     ## Overview of Global Profiles
     ### Derivation of Global Profiles Using the LOESS Algorithm
 
-    To analyze the dynamical differences between multiple populations (1P and 2P stars) across all clusters, we employed the **LOESS (Locally Weighted Scatterplot Smoothing)** algorithm as described by Cappellari et al. (2013). This non-parametric regression method is particularly effective for capturing trends in data without assuming a specific functional form.
+    To analyze the dynamical differences between multiple populations (1P and 2P stars) across all clusters, we employed the **LOESS (Locally-Weighted Regression)** algorithm as described by Cappellari et al. (2013).
 
     #### **How Global Profiles Are Derived**
 
@@ -216,27 +217,12 @@ Before presenting the results of the different tests, we first provide the **glo
 2. **Proper Motion Normalization**:  
    - Proper motions are normalized to the central dispersion, determined in *Libralato et al. (2023)* when available, or *Vasiliev & Baumgardt (2021)*.
 
-3. **Tangential Profile Adjustment**:  
+3. **Tangential Profile subtraction**:  
    - The cluster’s tangential profile (a proxy for rotation) is subtracted from individual tangential proper motions.  
    - This subtraction prevents an artificially increased tangential dispersion caused by the combination of differently rotating and non-rotating clusters.  
-   - *Figure 14* in the report demonstrates this effect, showing the global profiles derived from stacked datasets without rotation subtraction.
 
-#### **Benefits of Using LOESS for Global Profiles**
 
-- **Reduced Bias**:
-    - Unlike methods that might overweight clusters with more stars or specific dynamical characteristics, LOESS provides a balanced smoothing by considering the local density and distribution of data points.
-    
-- **Flexibility**:
-    - The non-parametric nature of LOESS allows it to adapt to various trends and patterns within the data, capturing complex dynamical behaviors without imposing rigid model constraints.
-    
-- **Enhanced Interpretability**:
-    - By visualizing weight distributions through box plots, we gain clear insights into the contribution dynamics of each cluster, facilitating a deeper understanding of the underlying astrophysical processes.
-    
----
-
-### Results and Visuals
-
-The results from the complete stacked and rotation-subtracted datasets are presented in **Figure 1** of the report. This figure is formatted consistently with *Figure 3* of the paper, and includes:
+### Results
 
 - **Radial and Tangential Dispersion Profiles**: Shown in the first two columns for both 1P and 2P stars.  
 - **Profile Comparisons**: Displayed in the third column, highlighting differences between the radial and tangential profiles of 1P and 2P stars.  
@@ -283,12 +269,12 @@ elif page == "Cluster groups profiles":
     st.markdown("""
 ### Grouping Clusters Based on Evolutionary Properties
 
-To explore how dynamical differences between multiple populations (1P and 2P stars) depend on the evolutionary state of clusters, we categorized our sample of **28 clusters** into distinct groups based on various internal and external factors. Below is an overview of the criteria and classifications used:
+To explore how dynamical differences between multiple populations (1P and 2P stars) depend on the evolutionary state of clusters, we divided our sample of **28 clusters** into distinct groups based on various internal and external factors. Below is an overview of the criteria and classifications used:
 
 | **Criterion**                     | **Dynamical Ages**                                                                                                                                                        | **Tidal Filling Factor**                                                                                                                                                                                                                                               | **Spatial Mixing of MPs**                                                                                                                                          | **Tidal Interaction with Milky Way**                                                                                                                                                        | **Clusters' Origin**                                                                                                                                                | **Escape Velocity (\(v_{\text{esc}}\))**                                                                                                                                              |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Definition**                    | Ratio between cluster age and half-mass relaxation time.[^1]                                                                                                            | $$\mathcal{R} = \frac{R_h}{R_J}$$ where \(R_h\) is the half-light radius and \(R_J\) is the Jacobi radius.[^2]                                                                                                                                                               | Degree to which 1P and 2P stars are spatially mixed.[^3]                                                                                                                 | Interaction strength based on peri-Galactic radius.[^4]                                                                                                                                              | Whether clusters formed **in situ** or were **accreted**.[^5]                                                                                                         | The escape velocity from the cluster.[^6]                                                                                                                                                         |
-| **Reference**                     | [Libralato et al. 2022](https://ui.adsabs.harvard.edu/abs/2022...)                                                                                                      | [Baumgardt et al. 2010; Shin et al. 2013; Balbinot et al. 2018](https://ui.adsabs.harvard.edu/abs/2010...)                                                                                                                                                              | [Leitinger et al. 2023; Jang et al. (submitted)](#)                                                                                                                  | [Milone et al. 2020; Libralato et al. 2023](https://ui.adsabs.harvard.edu/abs/2020...)                                                                                                 | [Massari et al. 2019](https://ui.adsabs.harvard.edu/abs/2019...)                                                                                                 | [Baumgardt et al. 2018; Mastrobuono-Battisti et al. 2021](https://ui.adsabs.harvard.edu/abs/2018...)                                                                                             |
+| **Reference**                     | [Libralato et al. 2022](https://ui.adsabs.harvard.edu/abs/2022...)                                                                                                      | [Baumgardt et al. 2010; Balbinot et al. 2018](https://ui.adsabs.harvard.edu/abs/2010...)                                                                                                                                                              | [Leitinger et al. 2023; Jang et al. (submitted)](#)                                                                                                                  | [Milone et al. 2020; Libralato et al. 2023](https://ui.adsabs.harvard.edu/abs/2020...)                                                                                                 | [Massari et al. 2019](https://ui.adsabs.harvard.edu/abs/2019...)                                                                                                 | [Baumgardt et al. 2018; Mastrobuono-Battisti et al. 2021](https://ui.adsabs.harvard.edu/abs/2018...)                                                                                             |
 | **Classification**                | - **Young**  
 - **Intermediate-Old**                                                                                                                                                 | - **Isolated Regime (Tidally Underfilling)**: \(\mathcal{R} < 0.05\)  
 - **Tidal Regime (Tidally Filling)**: \(\mathcal{R} > 0.05\)                                                                                                                              | - **Mixed**  
@@ -410,7 +396,7 @@ elif page == "Alternative global profiles":
     st.markdown("""
 ### Grouping Clusters Based on cluster properties
 1. **Combining Data from All Clusters**:
-    - By applying LOESS to the combined dataset of all clusters, we derive **global profiles** that represent the average dynamical behavior of 1P and 2P stars across the entire sample.
+    - By applying LOESS to the combined dynamical profiles of all clusters, we derive **global profiles** that represent the average dynamical behavior of 1P and 2P stars across the entire sample.
     - This approach mitigates biases that might arise from clusters with a disproportionately large number of stars or unique dynamical properties.
 
 #### **Understanding Weight Distribution**
@@ -551,18 +537,8 @@ elif page == "Statistical tests":
     st.title("Statistical tests")
 
     st.markdown("""
-## Methodology
 
-To derive the global dynamical profiles presented in this study, we utilized the individual dynamical profiles of each cluster, specifically focusing on dispersion and anisotropy as functions of normalized radius. This approach was selected over stacking datasets from all clusters for the following reasons:
-
-1. **Statistical Accuracy**: While stacking increases the number of stars per bin, it risks introducing inaccuracies by combining stars from clusters with very different properties.
-2. **Balanced Contribution**: Stacking can result in a few clusters disproportionately influencing the global profiles, potentially skewing the results.
-
-### Advantages of Individual Cluster Analysis
-
-By analyzing each cluster's dynamical profile separately, we mitigate the aforementioned issues and ensure consistency in our analysis. This method avoids grouping stars that do not share similar cluster properties, leading to more reliable and representative global profiles. Additionally, we employed bootstrap and Monte Carlo methods to infer uncertainties on the global profiles and assess their significance levels. These techniques account for random sample fluctuations and inherent uncertainties in the data.
-
-### Evaluation of Cluster Influence
+## Quantification of Cluster Influence
 
 To ensure that no specific clusters unduly dominate the global profiles, we conducted a series of tests by recomputing the global profiles using different subsets of the data:
 
